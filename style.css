@@ -1,0 +1,36 @@
+body {
+    background-color: #FEFEFE;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    padding: 0 20px;
+}
+
+#stages span {
+    padding: 6px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#baseShapes > .selected > :first-child {
+    background-color: #DDF8;
+}
+
+#fractalPatterns > .selected > :first-child {
+    background-color: #FDD8;
+}
+
+#stages > .selected > :first-child {
+    background-color: #CFC9;
+}
+
+#fractal {
+    width: 500px;
+    stroke-width: 0.1;
+}

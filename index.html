@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fractals!</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body onload="start()">
+        <h1>Build Your Own Fractal</h1>
+
+        <table>
+            <tbody>
+                <tr>
+                    <th>Base Shape</th>
+                    <th>Fractal Pattern</th>
+                    <th>Stages</th>
+                </tr>
+                <tr>
+                    <td><div id="baseShapes"></div></td>
+                    <td><div id="fractalPatterns"></div></td>
+                    <td><div id="stages"></div></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <svg id="fractal" viewBox="-10 -10 110 110"></svg>
+    </body>
+</html>
